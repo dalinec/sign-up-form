@@ -20,7 +20,7 @@ function validatePass(){
     }
 }
 
-password.onchange = validatePass;
+password.oninput = validatePass;
 confirmPassword.onkeyup = validatePass;
 
 window.onload = redPass;
